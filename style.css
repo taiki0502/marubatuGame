@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #fff9a2;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_text {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.leftPanel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.turnInfo {
+    background-color: #d3d3d3;
+    padding: 20px 40px;
+    font-size: 1.5em;
+    border-radius: 10px;
+}
+
+.gameBoard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.playArea_gameBoard-line {
+    display: flex;
+    gap: 10px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #228b22;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tool_replayButton {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4682b4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1e90ff;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
